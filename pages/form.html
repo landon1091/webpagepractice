@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Title</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="form.css">
+    <script src="main.js"></script>
+</head>
+<body>
+        <form>
+          
+                <div class="paddingBottom">
+                    <label for="age">What type of stuff?</label><br>
+                    <input type="radio" name="age" value="Small Stuff" checked>Small Stuff<br>
+                    <input type="radio" name="age" value="Medium Stuff">Medium Stuff<br>
+                    <input type="radio" name="age" value="Large Stuff">Large Stuff<br>
+                    <input type="submit" value="Submit">
+                </div>
+
+                <div class="paddingBottom">
+                    <label for="dropdown">Choose an option:</label><br>
+                    <select>
+                        <option>Lots</option>
+                        <option>Not lots</option>
+                    </select>
+                    <input type="submit" value="Stuff">
+                </div>
+                
+                    <label for="comment">Extra:</label><br>
+                    <textarea name="comment" maxlength="50"></textarea>
+        </form>
+        <div class="tablestuff">
+                <table border="1px"> 
+                    <tr bgcolor="green">     <!-- table row -->
+                        <th class="th">Stuff Sold</th>  <!-- table heading -->
+                        <th class="th">Stuff Bought</th>
+                    </tr>
+                    <tr>
+                        <th>49753</th>
+                        <th>9473722</th>
+                    </tr>
+            </table>
+        </div>
+</body>
+</html>
