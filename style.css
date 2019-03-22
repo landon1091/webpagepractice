@@ -21,5 +21,6 @@
 #submitbutton {
     margin-bottom: 5px;
 }
-
-
+.card-block {
+    text-align: center;
+}
