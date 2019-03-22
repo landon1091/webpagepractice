@@ -11,3 +11,15 @@
     height: 100%;
     width: 100%;
 }
+/* form */
+.form-row{
+    justify-content: center;
+}
+#saveme {
+    justify-content: center;
+}
+#submitbutton {
+    margin-bottom: 5px;
+}
+
+
